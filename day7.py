@@ -24,3 +24,18 @@ once the list, dictionary,string stops the loop stops
 for x in "string":
     print(x)
 
+# break
+for x in "string":
+    if x == 'i':
+        break
+    print(x)
+
+# continue
+for x in "string":
+    if x == 'i':
+        continue
+    print(x)
+
+for x in range(0, 10, 1):
+    print(x)
+print("For loop has finished")
