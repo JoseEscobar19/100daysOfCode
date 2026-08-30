@@ -39,3 +39,6 @@ ping.exe 127.0.0.1 -n 1 ; $LastExitCode
 
 
 
+
+$serviceName = 'wauserv
+Get-Service -Name $ServiceName
