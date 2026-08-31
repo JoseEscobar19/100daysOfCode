@@ -1,3 +1,5 @@
+##FOREACH LOOP##
+
 #region foreach
 $servers = @('localhost','SRV2','SRV3','SRV4')
 
@@ -15,4 +17,7 @@ $servers | ForEach-Object {
 
 ##the foreach( method () a method on an array: fastest)
 $servers.forach({Write-Host "Im processing server $_ right now..."})
+
+
+##FOR LOOPS##
 
