@@ -21,3 +21,8 @@ from my_module import greet, flavor
 greet("Albert Einstein")
 print("My favorite ice cream flavor is", flavor)
 
+import random
+
+random.randint(1, 10)         # random integer
+random.choice(pets)           # random item from list
+random.shuffle(pets)          # shuffles list in place
